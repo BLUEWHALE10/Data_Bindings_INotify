@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observe_collection_with_ListView", "Observe_collection_with_ListView\Observe_collection_with_ListView.csproj", "{4A9D19A9-74FB-4387-9A91-50C0F7E2761D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A9D19A9-74FB-4387-9A91-50C0F7E2761D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9D19A9-74FB-4387-9A91-50C0F7E2761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9D19A9-74FB-4387-9A91-50C0F7E2761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9D19A9-74FB-4387-9A91-50C0F7E2761D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F22B731A-2E24-4320-BAC8-A3A75BF3EDF2}
+	EndGlobalSection
+EndGlobal

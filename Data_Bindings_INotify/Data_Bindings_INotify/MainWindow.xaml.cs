@@ -21,10 +21,9 @@ namespace Data_Bindings_INotify
         public MainWindow()
         {
             DataContext = this;
+            Boundtext = string.Empty;
             InitializeComponent();
         }
-
-
 
         //propfull + double tab
         private string Boundtext;
