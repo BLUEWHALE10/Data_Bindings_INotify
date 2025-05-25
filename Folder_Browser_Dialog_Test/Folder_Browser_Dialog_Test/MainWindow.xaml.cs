@@ -8,9 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Microsoft.Win32;
 
-namespace OpenFileDialog_test
+namespace Folder_Browser_Dialog_Test
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,24 +23,14 @@ namespace OpenFileDialog_test
 
         private void btnFire_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-            fileDialog.Filter = "C# Source File | *.cs";
-            fileDialog.Title = "Please pick as CS Source file ...";
-            bool? success = fileDialog.ShowDialog();
+            FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+            folderBrowserDialog.InitialDirectory = "D:\\WPF\\Folder_Browser_Dialog_Test";
+            folderBrowserDialog.ShowDialog();
+            DialogResult result = default;
+            if (result == System.Windows.Forms.DialogResult.OK){
 
-            if(success == true)
-            {
-                string[] path = fileDialog.FileNames;
-                string[] fileName = fileDialog.SafeFileNames;
-                //tbInfo.Text = path;
+                string folder = folderBrowserDialog.SelectedPath;
             }
-            else
-            {
-
-                //didin't pick anythings
-
-            }
-
         }
     }
 }
