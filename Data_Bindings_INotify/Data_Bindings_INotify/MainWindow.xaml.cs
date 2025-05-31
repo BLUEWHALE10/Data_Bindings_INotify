@@ -29,11 +29,12 @@ namespace Data_Bindings_INotify
         private string Boundtext;
 
         public event PropertyChangedEventHandler? PropertyChanged;
+
         public string boundtext
         {
             get { return Boundtext; }
             set { Boundtext = value;             
-                OnpropertyChanged();
+                OnpropertyChanged(); 
             }
         }
 
@@ -46,6 +47,7 @@ namespace Data_Bindings_INotify
 
         private void btn_set_Click(object sender, RoutedEventArgs e)
         {
+
 
         }
     }
