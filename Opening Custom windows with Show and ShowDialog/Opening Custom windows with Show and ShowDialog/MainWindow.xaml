@@ -1,0 +1,16 @@
+﻿<Window x:Class="Opening_Custom_windows_with_Show_and_ShowDialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opening_Custom_windows_with_Show_and_ShowDialog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid>
+        <StackPanel>
+            <Button Name="btn_Normal" Width="100" Height="40" Content="Normal" Margin="5" Click="btn_Normal_Click"/>
+            <Button Name="btn_Modal" Width="100" Height="40" Content="Normal" Margin="5" Click="btn_Modal_Click"/>
+            <TextBox Name="txt_Input" Width="200" Height="40" FontSize="20"  />
+        </StackPanel>
+    </Grid>
+</Window>

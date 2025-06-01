@@ -10,7 +10,7 @@
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="2" CornerRadius="4" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
